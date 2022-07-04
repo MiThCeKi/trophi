@@ -1,0 +1,4 @@
+from nbconvert import TemplateExporter
+TemplateExporter.exclude_markdown=True 
+TemplateExporter.exclude_output_prompt=True
+TemplateExporter.exclude_input_prompt=True
